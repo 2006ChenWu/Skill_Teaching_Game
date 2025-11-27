@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Crossword - Pixel Style</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>WORD CROSSWORD</h1>
+    <div class="level-info">
+      <h2>Level <span id="current-level">1</span>: <span id="level-theme">Animals</span></h2>
+      <p>Difficulty: <span id="level-difficulty">1</span>/5</p>
+    </div>
+
+
+    <div class="board-container">
+      <div id="board" class="board"></div>
+    </div>
+
+
+    <div class="clues-container">
+      <div class="clues-section">
+        <h3>Across</h3>
+        <ul id="across-clues"></ul>
+      </div>
+      <div class="clues-section">
+        <h3>Down</h3>
+        <ul id="down-clues"></ul>
+      </div>
+    </div>
+
+
+    <div class="buttons">
+      <button id="verify-btn">Verify Answer</button>
+      <button id="next-level-btn" disabled>Next Level</button>
+      <button id="prev-level-btn" style="display: none;">Previous Level</button>
+      <button id="back-to-directory-btn">Back to Home</button>
+    </div>
+
+   
+    <div id="success-modal" class="modal">
+      <div class="modal-content">
+        <h2>🎉 Congratulations! 🎉</h2>
+        <p>You completed Level <span id="success-level">1</span>!</p>
+        <button id="modal-next-btn">Go to Next Level</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
