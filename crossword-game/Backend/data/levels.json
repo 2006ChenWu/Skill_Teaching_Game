@@ -1,0 +1,239 @@
+{
+    "levels": [
+      {
+        "levelId": 1,
+        "theme": "Animals（动物）",
+        "difficulty": 1,
+        "words": [
+          {
+            "id": 1,
+            "direction": "Across",
+            "length": 5,
+            "clue": "1. A big cat with stripes (有条纹的大猫)",
+            "answer": "tiger",
+            "startPos": {"x": 1, "y": 2}
+          },
+          {
+            "id": 2,
+            "direction": "Down",
+            "length": 3,
+            "clue": "2. Man's best friend (人类最好的朋友)",
+            "answer": "dog",
+            "startPos": {"x": 3, "y": 0}
+          },
+          {
+            "id": 3,
+            "direction": "Across",
+            "length": 4,
+            "clue": "3. Likes to fly and sing (会飞会唱歌)",
+            "answer": "bird",
+            "startPos": {"x": 0, "y": 0}
+          }
+        ]
+      },
+      {
+        "levelId": 2,
+        "theme": "Food（食物）",
+        "difficulty": 2,
+        "words": [
+          {
+            "id": 1,
+            "direction": "Across",
+            "length": 6,
+            "clue": "Yellow fruit loved by monkeys (猴子爱吃的黄色水果)",
+            "answer": "banana",
+            "startPos": {"x": 1, "y": 3}
+          },
+          {
+            "id": 2,
+            "direction": "Down",
+            "length": 5,
+            "clue": "Made of flour, baked in oven (面粉做的，烤箱烤制)",
+            "answer": "bread",
+            "startPos": {"x": 2, "y": 0}
+          },
+          {
+            "id": 3,
+            "direction": "Across",
+            "length": 6,
+            "clue": "Red vegetable, good for eyes (红色蔬菜，对眼睛好)",
+            "answer": "carrot",
+            "startPos": {"x": 0, "y": 1}
+          },
+          {
+            "id": 4,
+            "direction": "Down",
+            "length": 5,
+            "clue": "Sweet, round, grows on trees (甜的，圆的，长在树上)",
+            "answer": "apple",
+            "startPos": {"x": 4, "y": 3}
+          }
+        ]
+      },
+      {
+        "levelId": 3,
+        "theme": "Jobs（职业）",
+        "difficulty": 3,
+        "words": [
+          {
+            "id": 1,
+            "direction": "Across",
+            "length": 7,
+            "clue": "Teaches students at school (在学校教学生)",
+            "answer": "teacher",
+            "startPos": {"x": 0, "y": 2}
+          },
+          {
+            "id": 2,
+            "direction": "Down",
+            "length": 6,
+            "clue": "Helps sick people in hospital (在医院帮助病人)",
+            "answer": "doctor",
+            "startPos": {"x": 3, "y": 0}
+          },
+          {
+            "id": 3,
+            "direction": "Across",
+            "length": 7,
+            "clue": "Fights fires to save people (灭火救人)",
+            "answer": "fireman",
+            "startPos": {"x": 4, "y": 7}
+          },
+          {
+            "id": 4,
+            "direction": "Down",
+            "length": 6,
+            "clue": "Drives a bus for passengers (开公交车载乘客)",
+            "answer": "driver",
+            "startPos": {"x": 7, "y": 3}
+          },
+          {
+            "id": 5,
+            "direction": "Across",
+            "length": 8,
+            "clue": "Writes news for newspapers (为报纸写新闻)",
+            "answer": "reporter",
+            "startPos": {"x": 0, "y": 4}
+          }
+        ]
+      },
+      {
+        "levelId": 4,
+        "theme": "Science（科学）",
+        "difficulty": 4,
+        "words": [
+          {
+            "id": 1,
+            "direction": "Across",
+            "length": 5,
+            "clue": "The planet we live on (我们居住的星球)",
+            "answer": "earth",
+            "startPos": {"x": 5, "y": 4}
+          },
+          {
+            "id": 2,
+            "direction": "Down",
+            "length": 5,
+            "clue": "Falls from clouds when it rains (下雨时从云里落下)",
+            "answer": "water",
+            "startPos": {"x": 7, "y": 0}
+          },
+          {
+            "id": 3,
+            "direction": "Across",
+            "length": 3,
+            "clue": "A kind of bad mood",
+            "answer": "sad",
+            "startPos": {"x": 6, "y": 1}
+          },
+          {
+            "id": 4,
+            "direction": "Down",
+            "length": 4,
+            "clue": "Smallest unit of matter (物质的最小单位)",
+            "answer": "atom",
+            "startPos": {"x": 6, "y": 4}
+          },
+          {
+            "id": 5,
+            "direction": "Across",
+            "length": 9,
+            "clue": "Instrument to look at stars (观察星星的仪器)",
+            "answer": "telescope",
+            "startPos": {"x": 0, "y": 6}
+          },
+          {
+            "id": 6,
+            "direction": "Down",
+            "length": 7,
+            "clue": "Force that pulls things down (让物体下落的力)",
+            "answer": "gravity",
+            "startPos": {"x": 0, "y": 1}
+          }
+        ]
+      },
+      {
+        "levelId": 5,
+        "theme": "Daily Life（日常生活）",
+        "difficulty": 5,
+        "words": [
+          {
+            "id": 1,
+            "direction": "Across",
+            "length": 7,
+            "clue": "Place to sleep at night (晚上睡觉的地方)",
+            "answer": "bedroom",
+            "startPos": {"x": 0, "y": 2}
+          },
+          {
+            "id": 2,
+            "direction": "Down",
+            "length": 5,
+            "clue": "Device to call people far away (给远方的人打电话的设备)",
+            "answer": "phone",
+            "startPos": {"x": 5, "y": 0}
+          },
+          {
+            "id": 3,
+            "direction": "Across",
+            "length": 9,
+            "clue": "Meal eaten in the morning (早上吃的饭)",
+            "answer": "breakfast",
+            "startPos": {"x": 3, "y": 4}
+          },
+          {
+            "id": 4,
+            "direction": "Down",
+            "length": 5,
+            "clue": "Clothes worn on feet (穿在脚上的衣物)",
+            "answer": "shoes",
+            "startPos": {"x": 10, "y": 4}
+          },
+          {
+            "id": 5,
+            "direction": "Across",
+            "length": 7,
+            "clue": "Room to cook food (做饭的房间)",
+            "answer": "kitchen",
+            "startPos": {"x": 5, "y": 7}
+          },
+          {
+            "id": 6,
+            "direction": "Down",
+            "length": 8,
+            "clue": "Tool to cut paper (剪纸的工具)",
+            "answer": "scissors",
+            "startPos": {"x": 8, "y": 6}
+          },
+          {
+            "id": 7,
+            "direction": "Across",
+            "length": 5,
+            "clue": "Book with pages of maps (有地图页的书)",
+            "answer": "atlas",
+            "startPos": {"x": 4, "y": 10}
+          }
+        ]
+      }
+    ]
+  }
