@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Skill Teaching Game</title>
+    <link rel="stylesheet" href="shared-css/directory-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mountain-background">
+        <div class="mountain-range far-mountains"></div>
+        <div class="mountain-range mid-mountains"></div>
+        <div class="mountain-range near-mountains"></div>
+        
+        <div class="cabin">
+            <div class="cabin-roof"></div>
+            <div class="cabin-body">
+                <div class="cabin-door"></div>
+                <div class="cabin-window left"></div>
+                <div class="cabin-window right"></div>
+            </div>
+            <div class="chimney"></div>
+        </div>
+        
+        <div class="tree tree1"></div>
+        <div class="tree tree2"></div>
+        <div class="tree tree3"></div>
+        
+        <div class="cloud cloud1"></div>
+        <div class="cloud cloud2"></div>
+        <div class="cloud cloud3"></div>
+    </div>
+
+    <div class="directory-container">
+        <header class="game-header">
+            <h1 class="pixel-title">ENGLISH SKILL TEACHING GAME</h1>
+            <p class="pixel-subtitle">Choose a game to improve your English!</p>
+        </header>
+
+        <div class="games-grid">
+            <div class="game-card available" data-game="1">
+                <div class="game-icon img-icon">
+                    <img src="shared-css/images/word-classification.png" alt="Word Classification" onerror="this.style.display='none'; this.parentNode.innerHTML='📚';">
+                </div>
+                <h3 class="game-title">Word Classification</h3>
+                <p class="game-description">Drag words to correct categories</p>
+                <div class="pixel-button play-button" onclick="launchGame(1)">PLAY</div>
+            </div>
+
+            <!-- Game 2: Word Crossword -->
+            <div class="game-card available" data-game="2">
+                <div class="game-icon img-icon">
+                    <img src="shared-css/images/word-crossword.png" alt="Word Crossword" onerror="this.style.display='none'; this.parentNode.innerHTML='🧩';">
+                </div>
+                <h3 class="game-title">Word Crossword</h3>
+                <p class="game-description">Fill in the crossword puzzle with English words</p>
+                <div class="pixel-button play-button" onclick="launchGame(2)">PLAY</div>
+            </div>
+
+            <div class="game-card coming-soon" data-game="3">
+                <div class="game-icon img-icon">
+                    <img src="shared-css/images/sentence-master.png" alt="Sentence Master" onerror="this.style.display='none'; this.parentNode.innerHTML='📝';">
+                </div>
+                <h3 class="game-title">Sentence Master</h3>
+                <p class="game-description">Build perfect sentences</p>
+                <div class="pixel-button disabled">LOCKED</div>
+            </div>
+
+            <div class="game-card coming-soon" data-game="4">
+                <div class="game-icon img-icon">
+                    <img src="shared-css/images/speaking-practice.png" alt="Speaking Practice" onerror="this.style.display='none'; this.parentNode.innerHTML='🎙️';">
+                </div>
+                <h3 class="game-title">Speaking Practice</h3>
+                <p class="game-description">Improve pronunciation</p>
+                <div class="pixel-button disabled">LOCKED</div>
+            </div>
+
+            <div class="game-card coming-soon" data-game="5">
+                <div class="game-icon img-icon">
+                    <img src="shared-css/images/vocabulary-builder.png" alt="Vocabulary Builder" onerror="this.style.display='none'; this.parentNode.innerHTML='🔤';">
+                </div>
+                <h3 class="game-title">Vocabulary Builder</h3>
+                <p class="game-description">Expand your word power</p>
+                <div class="pixel-button disabled">LOCKED</div>
+            </div>
+
+            <div class="game-card coming-soon" data-game="6">
+                <div class="game-icon img-icon">
+                    <img src="shared-css/images/english-marathon.png" alt="English Marathon" onerror="this.style.display='none'; this.parentNode.innerHTML='🏆';">
+                </div>
+                <h3 class="game-title">English Marathon</h3>
+                <p class="game-description">All skills combined</p>
+                <div class="pixel-button disabled">LOCKED</div>
+            </div>
+        </div>
+
+        <footer class="directory-footer">
+        </footer>
+    </div>
+
+    <script>
+        function launchGame(gameNumber) {
+            switch(gameNumber) {
+                case 1:
+                    window.location.href = 'word-classification/frontend/index.html';
+                    break;
+                case 2:
+                    window.location.href = 'http://localhost:5001';
+                    break;
+                case 3:
+                    alert('Sentence Master is coming soon!');
+                    break;
+                case 4:
+                    alert('Speaking Practice is coming soon!');
+                    break;
+                case 5:
+                    alert('Vocabulary Builder is coming soon!');
+                    break;
+                case 6:
+                    alert('English Marathon is coming soon!');
+                    break;
+                default:
+                    alert('Game not available yet!');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const gameCards = document.querySelectorAll('.game-card');
+            
+            gameCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+                
+                card.addEventListener('click', function() {
+                    if (this.classList.contains('available')) {
+                        this.style.animation = 'pixelClick 0.3s';
+                        setTimeout(() => {
+                            this.style.animation = '';
+                        }, 300);
+                    }
+                });
+            });
+
+            const imageIcons = document.querySelectorAll('.img-icon');
+            imageIcons.forEach(icon => {
+                const img = icon.querySelector('img');
+                if (!img || !img.complete || img.naturalHeight === 0) {
+                    const alt = img.getAttribute('alt');
+                    let emoji = '🎮';
+                    if (alt.includes('Word')) emoji = '📚';
+                    else if (alt.includes('Grammar')) emoji = '🎯';
+                    else if (alt.includes('Sentence')) emoji = '📝';
+                    else if (alt.includes('Speaking')) emoji = '🎙️';
+                    else if (alt.includes('Vocabulary')) emoji = '🔤';
+                    else if (alt.includes('Marathon')) emoji = '🏆';
+                    
+                    icon.innerHTML = emoji;
+                    icon.classList.remove('img-icon');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
