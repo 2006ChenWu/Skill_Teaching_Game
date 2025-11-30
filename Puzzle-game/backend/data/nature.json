@@ -1,0 +1,102 @@
+[
+  {
+    "word": "mountain",
+    "phonetic": "/ˈmaʊntən/",
+    "fragments": ["moun", "tain"]
+  },
+  {
+    "word": "river",
+    "phonetic": "/ˈrɪvər/",
+    "fragments": ["riv", "er"]
+  },
+  {
+    "word": "forest",
+    "phonetic": "/ˈfɒrɪst/",
+    "fragments": ["for", "est"]
+  },
+  {
+    "word": "ocean",
+    "phonetic": "/ˈəʊʃən/",
+    "fragments": ["o", "cean"]
+  },
+  {
+    "word": "waterfall",
+    "phonetic": "/ˈwɔːtəfɔːl/",
+    "fragments": ["wa", "ter", "fall"]
+  },
+  {
+    "word": "volcano",
+    "phonetic": "/vɒlˈkeɪnəʊ/",
+    "fragments": ["vol", "ca", "no"]
+  },
+  {
+    "word": "canyon",
+    "phonetic": "/ˈkænjən/",
+    "fragments": ["can", "yon"]
+  },
+  {
+    "word": "meadow",
+    "phonetic": "/ˈmedəʊ/",
+    "fragments": ["mea", "dow"]
+  },
+  {
+    "word": "hurricane",
+    "phonetic": "/ˈhʌrɪkən/",
+    "fragments": ["hur", "ri", "cane"]
+  },
+  {
+    "word": "tornado",
+    "phonetic": "/tɔːˈneɪdəʊ/",
+    "fragments": ["tor", "na", "do"]
+  },
+  {
+    "word": "earthquake",
+    "phonetic": "/ˈɜːθkweɪk/",
+    "fragments": ["earth", "quake"]
+  },
+  {
+    "word": "glacier",
+    "phonetic": "/ˈɡlæsiər/",
+    "fragments": ["gla", "cier"]
+  },
+  {
+    "word": "rainbow",
+    "phonetic": "/ˈreɪnbəʊ/",
+    "fragments": ["rain", "bow"]
+  },
+  {
+    "word": "thunderstorm",
+    "phonetic": "/ˈθʌndəstɔːm/",
+    "fragments": ["thun", "der", "storm"]
+  },
+  {
+    "word": "wildflower",
+    "phonetic": "/ˈwaɪldflaʊər/",
+    "fragments": ["wild", "flow", "er"]
+  },
+  {
+    "word": "waterfall",
+    "phonetic": "/ˈwɔːtəfɔːl/",
+    "fragments": ["wa", "ter", "fall"]
+  },
+  {
+    "word": "landscape",
+    "phonetic": "/ˈlændskeɪp/",
+    "fragments": ["land", "scape"]
+  },
+  {
+    "word": "wilderness",
+    "phonetic": "/ˈwɪldənəs/",
+    "fragments": ["wil", "der", "ness"]
+  },
+  {
+    "word": "ecosystem",
+    "phonetic": "/ˈiːkəʊsɪstəm/",
+    "fragments": ["e", "co", "sys", "tem"]
+  },
+  {
+    "word": "atmosphere",
+    "phonetic": "/ˈætməsfɪər/",
+    "fragments": ["at", "mos", "phere"]
+  }
+]
