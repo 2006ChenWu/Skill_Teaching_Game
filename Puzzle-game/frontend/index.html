@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/pixel-font.css">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="pixel-font">Piece the word together</h1>
+        </header>
+
+        <div id="categorySelection" class="category-selection">
+            <!--choose category to start-->
+            <div class="category-buttons">
+                <button class="category-btn pixel-font" data-category="fruit">Fruit</button>
+                <button class="category-btn pixel-font" data-category="animal">Animal</button>
+                <button class="category-btn pixel-font" data-category="nature">Nature</button>
+            </div>
+        </div>
+            <!--Word count selector-->
+            <div id="wordCountSelector" class="word-count-selector">
+                <label class="pixel-font_small" for="wordCount">WordCount:</label>
+                <div class="counter">
+                    <button id="decreaseBtn" class="counter-btn pixel-font">-</button>
+                    <input id="wordCount" type="number" min="2" max="10" value="2" readonly>
+                    <button id="increaseBtn" class="counter-btn pixel-font">+</button>
+                </div>
+            </div>
+
+        <div id="gameArea" class="game-area hidden">
+            <!--progress bar-->
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+                <h1></h1>
+                <div id="progressText" class="pixel-font">0% (0/0)</div>
+            </div>
+
+            <div class="current-word">
+                <h2 id="currentWord" class="hidden"></h2>
+                <div class="phonetic">
+                    <p id="phoneticDisplay"></p>
+                    <button id="pronunciationBtn" class="pronunciation-btn hidden">
+                        <span class="speaker-icon">🔊</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="game-board">
+                <div id="targetArea" class="target-area">
+                    <div id="targetSlots" class="target-slots"></div>
+                </div>
+
+                <div id="fragmentsArea" class="fragments-area">
+                    <div id="fragmentsContainer" class="fragments-container"></div>
+                </div>
+            </div>
+        
+            <div class="controls">
+                <!--check this word-->
+                <button id="checkBtn" class="check-btn pixel-font">Submit</button>
+                <!--reset current word-->
+                <button id="resetBtn" class="reset-btn pixel-font">Reset</button>
+                <!--restart game-->
+                <button id="newGameBtn" class="new-game-btn pixel-font">New game</button>
+            </div>
+
+            <div id="message" class="message"></div>
+        </div>
+    </div>
+
+    <script src="/js/pronunciation.js"></script>
+    <script src="/js/progress-bar.js"></script>
+    <script src="/js/drag-drop.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

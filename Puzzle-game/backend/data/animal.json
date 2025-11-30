@@ -1,0 +1,102 @@
+[
+  {
+    "word": "elephant",
+    "phonetic": "/ˈelɪfənt/",
+    "fragments": ["el", "e", "phant"]
+  },
+  {
+    "word": "giraffe",
+    "phonetic": "/dʒɪˈrɑːf/",
+    "fragments": ["gi", "raffe"]
+  },
+  {
+    "word": "kangaroo",
+    "phonetic": "/ˌkæŋɡəˈruː/",
+    "fragments": ["kan", "ga", "roo"]
+  },
+  {
+    "word": "penguin",
+    "phonetic": "/ˈpeŋɡwɪn/",
+    "fragments": ["pen", "guin"]
+  },
+  {
+    "word": "dolphin",
+    "phonetic": "/ˈdɒlfɪn/",
+    "fragments": ["dol", "phin"]
+  },
+  {
+    "word": "octopus",
+    "phonetic": "/ˈɒktəpəs/",
+    "fragments": ["oc", "to", "pus"]
+  },
+  {
+    "word": "butterfly",
+    "phonetic": "/ˈbʌtəflaɪ/",
+    "fragments": ["but", "ter", "fly"]
+  },
+  {
+    "word": "crocodile",
+    "phonetic": "/ˈkrɒkədaɪl/",
+    "fragments": ["cro", "co", "dile"]
+  },
+  {
+    "word": "rhinoceros",
+    "phonetic": "/raɪˈnɒsərəs/",
+    "fragments": ["rhi", "no", "ce", "ros"]
+  },
+  {
+    "word": "chimpanzee",
+    "phonetic": "/tʃɪmˈpænzi/",
+    "fragments": ["chim", "pan", "zee"]
+  },
+  {
+    "word": "hippopotamus",
+    "phonetic": "/ˌhɪpəˈpɒtəməs/",
+    "fragments": ["hip", "po", "po", "ta", "mus"]
+  },
+  {
+    "word": "flamingo",
+    "phonetic": "/fləˈmɪŋɡəʊ/",
+    "fragments": ["fla", "min", "go"]
+  },
+  {
+    "word": "hedgehog",
+    "phonetic": "/ˈhedʒhɒɡ/",
+    "fragments": ["hedge", "hog"]
+  },
+  {
+    "word": "porcupine",
+    "phonetic": "/ˈpɔːkjʊpaɪn/",
+    "fragments": ["por", "cu", "pine"]
+  },
+  {
+    "word": "armadillo",
+    "phonetic": "/ˌɑːməˈdɪləʊ/",
+    "fragments": ["ar", "ma", "dil", "lo"]
+  },
+  {
+    "word": "platypus",
+    "phonetic": "/ˈplætɪpəs/",
+    "fragments": ["pla", "ty", "pus"]
+  },
+  {
+    "word": "chameleon",
+    "phonetic": "/kəˈmiːliən/",
+    "fragments": ["cha", "me", "leon"]
+  },
+  {
+    "word": "squirrel",
+    "phonetic": "/ˈskwɪrəl/",
+    "fragments": ["squir", "rel"]
+  },
+  {
+    "word": "woodpecker",
+    "phonetic": "/ˈwʊdˌpekər/",
+    "fragments": ["wood", "peck", "er"]
+  },
+  {
+    "word": "hummingbird",
+    "phonetic": "/ˈhʌmɪŋbɜːd/",
+    "fragments": ["hum", "ming", "bird"]
+  }
+]

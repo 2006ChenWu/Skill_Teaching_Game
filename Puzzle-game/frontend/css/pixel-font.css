@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.pixel-font {
+    font-family: 'Press Start 2P', cursive;
+    image-rendering: pixelated;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+}
+
+.pixel-font_small {
+    font-family: 'Press Start 2P', cursive;
+    image-rendering: pixelated;
+    letter-spacing: 0.5px;
+    font-size: 0.7rem;
+}
+
+h1.pixel-font {
+    font-size: 2rem;
+    text-shadow: 2px 2px 0 rgba(0, 102, 204, 0.3);
+}
+
+.category-btn.pixel-font,
+.check-btn.pixel-font,
+.reset-btn.pixel-font,
+.new-game-btn.pixel-font,
+.counter-btn.pixel-font {
+    font-size: 0.9rem;
+    border-radius: 4px;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.1s ease;
+}
+
+.category-btn.pixel-font:hover,
+.check-btn.pixel-font:hover,
+.reset-btn.pixel-font:hover,
+.new-game-btn.pixel-font:hover,
+.counter-btn.pixel-font:hover {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.category-btn.pixel-font:active,
+.check-btn.pixel-font:active,
+.reset-btn.pixel-font:active,
+.new-game-btn.pixel-font:active,
+.counter-btn.pixel-font:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    h1.pixel-font {
+        font-size: 2rem;
+    }
+    
+    .category-btn.pixel-font,
+    .check-btn.pixel-font,
+    .reset-btn.pixel-font,
+    .new-game-btn.pixel-font {
+        font-size: 0.8rem;
+    }
+}
